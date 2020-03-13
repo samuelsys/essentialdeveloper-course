@@ -8,12 +8,9 @@
 
 import UIKit
 
-struct UserLogger {}
-
-
 //Singleton
 class ApiClient {
-        
+    
     static let shared = ApiClient()
     
     private init() {}
